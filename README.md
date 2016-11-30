@@ -3,7 +3,7 @@ Testcases are more less the same, but the GameBook API for Laxino games is a bit
 
 
 the API call is like this:
-
+```
 bet_async = (json) => {
 
         let body_url_encoded = "login_name=" + json.login_name + "&session_token=" + json.session_token + "&bet_amt=" + json.bet_amt + "&ref_trans_id=" + json.ref_trans_id + "&round_id=" + json.round_id + "&game_id=" + json.game_id + "&trans_date=" + json.trans_date ;
@@ -26,3 +26,8 @@ bet_async = (json) => {
         console.log("")
         return rp(option);
     }
+```
+
+references:
+
+
