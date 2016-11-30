@@ -30,4 +30,14 @@ bet_async = (json) => {
 
 references:
 
+// date format
+https://www.npmjs.com/package/date-and-time
+
+// post body: replace spaces with %20, replace + sign with %2B
+http://stackoverflow.com/questions/2678551/when-to-encode-space-to-plus-or-20
+
+
+
+
+
 
